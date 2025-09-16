@@ -39,6 +39,27 @@ const vendors: Vendor[] = [
     location: "Maitama, Abuja",
     category: "Clothes & fashion"
   },
+  {
+    id: 5,
+    img: "/fab.jpg",
+    vendorName: "Mega Foods",
+    location: "Maitama, Abuja",
+    category: "Clothes & fashion"
+  },
+  {
+    id: 6,
+    img: "/food2.jpg",
+    vendorName: "Mega Foods",
+    location: "Maitama, Abuja",
+    category: "Food"
+  },
+  {
+    id: 7,
+    img: "/clothe2.jpg",
+    vendorName: "Mega Foods",
+    location: "Maitama, Abuja",
+    category: "Clothes & fashion"
+  },
 ];
 
 function Vendors() {
@@ -53,7 +74,7 @@ function Vendors() {
       </p>
 
       {/* Vendor grid */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {vendors.map((ven) => (
           <div
             key={ven.id}
