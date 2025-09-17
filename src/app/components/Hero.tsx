@@ -4,7 +4,7 @@ function Hero() {
     return (
         <section className="min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-green-500 to-blue-600 text-white px-6">
             {/* Animated dots */}
-            <div className="flex gap-3 mb-6">
+            <div className="flex gap-3 mb-6 ">
 
                 <div className="h-4 w-4 rounded-lg animate-bounce bg-yellow-400 "></div>
                 <div className="h-4 w-4 rounded-lg animate-bounce bg-yellow-400 delay-300"></div>

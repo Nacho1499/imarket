@@ -32,13 +32,7 @@ const vendors: Vendor[] = [
     location: "Wuse 2, Abuja",
     category: "phones & accessories"
   },
-  {
-    id: 4,
-    img: "/cloth.jpg",
-    vendorName: "Mega Foods",
-    location: "Maitama, Abuja",
-    category: "Clothes & fashion"
-  },
+ 
   {
     id: 5,
     img: "/fab.jpg",
@@ -46,20 +40,8 @@ const vendors: Vendor[] = [
     location: "Maitama, Abuja",
     category: "Clothes & fashion"
   },
-  {
-    id: 6,
-    img: "/food2.jpg",
-    vendorName: "Mega Foods",
-    location: "Maitama, Abuja",
-    category: "Food"
-  },
-  {
-    id: 7,
-    img: "/clothe2.jpg",
-    vendorName: "Mega Foods",
-    location: "Maitama, Abuja",
-    category: "Clothes & fashion"
-  },
+  
+  
 ];
 
 function Vendors() {
