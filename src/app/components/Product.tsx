@@ -11,12 +11,12 @@ interface Product {
 }
 
 const products: Product[] = [
-  { id: 1, img: "/phone.jpg", name: "iPhone 14 Pro", price: "$999", vendor: "TechWorld" },
-  { id: 2, img: "/fab.jpg", name: "Classic White Shirt", price: "$40", vendor: "Clothify" },
-  { id: 3, img: "/food.jpg", name: "Jollof Rice Pack", price: "$10", vendor: "Mama’s Kitchen" },
-  { id: 4, img: "/home.jpg", name: "Samsung Smart TV", price: "$650", vendor: "Appliance Hub" },
-   { id: 5, img: "/home.jpg", name: "Samsung Smart TV", price: "$650", vendor: "Appliance Hub" },
-    { id: 6, img: "/home.jpg", name: "Samsung Smart TV", price: "$650", vendor: "Appliance Hub" },
+  { id: 1, img: "/ph.jpg", name: "iPhone 14 Pro", price: "$999", vendor: "TechWorld" },
+  { id: 2, img: "/ph2.jpg", name: "Classic White Shirt", price: "$40", vendor: "Clothify" },
+  { id: 3, img: "/fre2.jpg", name: "Jollof Rice Pack", price: "$10", vendor: "Mama’s Kitchen" },
+  { id: 4, img: "/rice.jpg", name: "Samsung Smart TV", price: "$650", vendor: "Appliance Hub" },
+   { id: 5, img: "/fre.jpg", name: "Samsung Smart TV", price: "$650", vendor: "Appliance Hub" },
+    { id: 6, img: "/oil.jpg", name: "Samsung Smart TV", price: "$650", vendor: "Appliance Hub" },
 ];
 
 function Product() {
